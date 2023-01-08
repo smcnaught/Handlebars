@@ -1,0 +1,26 @@
+[
+  {
+      "id": "1",
+      "review": "I loved the movie!",
+      "address_id": "1",
+      "user_id": "2",
+      "user": "Sally",
+      "userEmail": "sally@gmail.com"
+  },
+  {
+      "id": "2",
+      "review": "It was aight",
+      "address_id": "2",
+      "user_id": "3",
+      "user": "Bob",
+      "userEmail": "bob@gmail.com"
+  },
+  {
+      "id": "3",
+      "review": "Woof",
+      "address_id": "3",
+      "user_id": "4",
+      "user": "Maggie",
+      "userEmail": "maggie@gmail.com"
+  }
+]

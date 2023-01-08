@@ -1,0 +1,27 @@
+<div class="posts">
+    <div class="row justify-content-center">
+        <div class="col-lg-7" style="margin-top: 50px;">
+            <div class="card">
+                <div class="card-body">
+                    {{#if reviews}}
+                    <h5 class="card-title">Reviews:</h5>
+                    <ul class="list-group">
+                        {{#each reviews}}
+                          <div>{{this.review}}</div>
+                          <div>-{{this.user}}</div>
+                          <br>
+                        {{/each}}
+                    </ul>
+                    {{else}}
+                    <ul class="list-group">
+                        <li class="list-group-item">Be first to leave a review!</li>
+                    </ul>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
